@@ -1,0 +1,29 @@
+{
+  "name": "ethereum-signed-messages",
+  "version": "1.0.0",
+  "description": "A helper repo for signing messages and confirming signed messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobyjaguar/ethereum-signed-messages.git"
+  },
+  "keywords": [],
+  "author": "tobyjaguar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobyjaguar/ethereum-signed-messages/issues"
+  },
+  "homepage": "https://github.com/tobyjaguar/ethereum-signed-messages#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "ethereum-cryptography": "^1.2.0",
+    "ethers": "^5.7.2",
+    "prompt": "^1.3.0"
+  }
+}
